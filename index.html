@@ -6,24 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>package</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="simpleBar.css">
 </head>
 
 <body>
     <div>
         <nav id="navbar">
-
         </nav>
+
+
     </div>
-    <script src="app.js"></script>
+    <script src="simpleBar.js"></script>
     <script>
         package({
-            links: ["home", "about", "FAQ", "contact", "service", "Pricing"],
-            logoType: "text",
-            logo: "myLogo",
-            background: "red",
-            color: "black",
-            pathType: "#"
+            links: ["Home", "Service", "About", "contact", "Pricing", "FAQ", "support", "purchase"],
+            logoType: "image",
+            logo: "/toad.jpg",
+            background: "teal",
+            color: "white",
+            logoColor: "brown",
+            pathType: "#",
+            style: "drop",
+            humburgerColor: "white",
+            fixed: true,
+
         })
     </script>
 </body>
