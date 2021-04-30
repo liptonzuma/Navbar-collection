@@ -7,12 +7,14 @@ Let us do the hardwork all you need to do is give us the options.
 
 ## Getting Started 
 
-`` npm install simpleBar  --save``
+`` npm install simplebar  --save``
 
 **The next thing is import your npm modules**
 
 
 ## To begin,
+Add `<link rel="stylesheet" href="\your-location\simpleBar.css">` to the head tag
+Add ` <script src="\your-location\simpleBar.js"></script>` to the end part of your body tag
 
 First you create your nav element and give it an  `#navbar`
 --
@@ -62,7 +64,7 @@ You can practice the rest of the options with your own values since they are jus
 
 **Looking to add more feature**
 
-# Please you can contribute to make this better
+
 
 
 

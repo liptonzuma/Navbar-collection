@@ -1,22 +1,22 @@
 {
-  "name": "navbar_c",
-  "version": "1.0.0",
-  "description": "build navbars with very little code",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/liptonzuma/Navbar-collection.git"
-  },
-  "author": "Solomon Boateng Gyan (Liptonzuma)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/liptonzuma/Navbar-collection/issues"
-  },
-  "homepage": "https://github.com/liptonzuma/Navbar-collection#readme",
-  "dependencies": {
-    "font-awesome": "^4.7.0"
-  }
+    "name": "simplebar",
+    "version": "1.0.0",
+    "description": "build navbars with very little code",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/liptonzuma/Navbar-collection.git"
+    },
+    "author": "Solomon Boateng Gyan (Liptonzuma)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/liptonzuma/Navbar-collection/issues"
+    },
+    "homepage": "https://github.com/liptonzuma/Navbar-collection#readme",
+    "dependencies": {
+        "font-awesome": "^4.7.0"
+    }
 }

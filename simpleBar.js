@@ -10,7 +10,7 @@ const package = options => {
         pathType,
         logoColor,
         humburgerColor,
-        fixed,
+        fixed
     } = options;
 
     /*********************Checking if fixed is true and apply the fixed class else we take it out*************/
@@ -63,9 +63,7 @@ const package = options => {
 
     }
     navLink.forEach(link => link.style.color = color)
-    navLink.forEach(link => link.addEventListener("mouseover", () => {
-            link.style.color = linkHoverColor
-        }))
+  
         /************************************************************************************* */
         /***************************************Targeting the humburger***********************************************/
     const menu = document.querySelector(".menu")
@@ -115,4 +113,5 @@ const package = options => {
             bar.classList.toggle(act)
         }
         /**************************add The hover propery****************/
+      
 }
