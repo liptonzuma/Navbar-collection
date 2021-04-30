@@ -38,7 +38,7 @@ First you create your nav element and give it an  `#navbar`
 
 *drop*
 --
-*slide-from--right*
+*slide-from-right*
 ---
 *slide-from-left.*
 --
@@ -50,7 +50,9 @@ Your logo can either be an image or text
 so you pass in 
 
 `logoType:"image"` or `logoType:"text"`
+
 --
+
 Then you can specify either your file location or the text for the logo .
 
 # For path or Url
