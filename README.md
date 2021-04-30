@@ -15,7 +15,7 @@ Let us do the hardwork all you need to do is give us the options.
 `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar1@1.0.0/simpleBar.css">`
 
 
-`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar1@1.0.0/simpleBar.min.js">`
+`<script src="https://cdn.jsdelivr.net/npm/simplebar1@1.0.0/simpleBar.min.js"></script>;`
 
 ## To begin,
 Add `<link rel="stylesheet" href="\node_modules\simpleBar.css">` to the head tag
