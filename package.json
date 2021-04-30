@@ -1,8 +1,8 @@
 {
-    "name": "simplebar",
+    "name": "simplebar1",
     "version": "1.0.0",
     "description": "build navbars with very little code",
-    "main": "app.js",
+    "main": "simplebar.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
