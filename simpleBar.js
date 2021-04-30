@@ -10,9 +10,11 @@ const package = options => {
         pathType,
         logoColor,
         humburgerColor,
-        fixed
+        fixed,
+        logoFont
     } = options;
 
+    
     /*********************Checking if fixed is true and apply the fixed class else we take it out*************/
     const navbar = document.querySelector("#navbar")
     fixed ? document.querySelector("nav").classList.add("fixed") : document.querySelector("nav").classList.remove("fixed")
@@ -21,7 +23,7 @@ const package = options => {
     /********************checking if the logo is either text or an image*************************/
     let brand;
     if (logoType === "text") {
-        brand = `<a href="${pathType}home" class="logo-text">${logo}</a>`
+        brand = `<a href="${pathType}home" class="logo logo-text">${logo}</a>`
     } else if (logoType === "image") {
         brand = `<a href="${pathType}home" class="logo">
 		 <img src=${logo} alt="logo-image" class="logo-image"/>
@@ -29,6 +31,7 @@ const package = options => {
     } else {
         alert("LogoType can only be text or image")
     }
+    logoFont? document.querySelector(".logo").style.fontFamily=logoFont : null
 
     /********************************converting the list into into the list item with the anchor tag******/
 
