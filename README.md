@@ -13,6 +13,8 @@ Let us do the hardwork all you need to do is give us the options.
 
 ## For normal project use this 
 `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar1@1.0.0/simpleBar.css">`
+
+
 `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar1@1.0.0/simpleBar.min.js">`
 
 ## To begin,
