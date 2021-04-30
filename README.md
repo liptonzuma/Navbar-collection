@@ -7,14 +7,14 @@ Let us do the hardwork all you need to do is give us the options.
 
 ## Getting Started 
 
-`` npm install simplebar  --save``
+`` npm install simplebar1  --save``
 
 **The next thing is import your npm modules**
 
 
 ## To begin,
-Add `<link rel="stylesheet" href="\your-location\simpleBar.css">` to the head tag
-Add ` <script src="\your-location\simpleBar.js"></script>` to the end part of your body tag
+Add `<link rel="stylesheet" href="\node_modules\simpleBar.css">` to the head tag
+Add ` <script src="\node_modules\simpleBar.js"></script>` to the end part of your body tag
 
 First you create your nav element and give it an  `#navbar`
 --
@@ -30,7 +30,6 @@ First you create your nav element and give it an  `#navbar`
             style: "drop",
             humburgerColor: "white",
             fixed: true,
-            LinkHoverColor: "white"
 
         })
 ````
@@ -64,7 +63,7 @@ All you need to do is give it a `true` value and there you have fixed-top navbar
 You can practice the rest of the options with your own values since they are just colors.
 
 
-**Looking to add more feature**
+**Looking to add more features**
 
 
 
