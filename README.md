@@ -35,7 +35,7 @@ First you create your nav element and give it an  `#navbar`
             style: "drop",
             humburgerColor: "white",
             fixed: true,
-
+            logoFont:"Handwritting"
         })
 ````
 # Options for style 
@@ -67,6 +67,11 @@ All you need to do is give it a `true` value and there you have fixed-top navbar
 
 You can practice the rest of the options with your own values since they are just colors.
 
+# Add your own logo font-family
+    you can just specify the font-family you want for your logo and also increase the fon-weight
+
+    `logoFont:"Montserrat"`
+    `logoBoldness:"700"`
 
 **Looking to add more features**
 

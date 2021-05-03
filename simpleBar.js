@@ -11,7 +11,8 @@ const package = options => {
         logoColor,
         humburgerColor,
         fixed,
-        logoFont
+        logoFont,
+        logoBoldness,
     } = options;
 
     
@@ -31,7 +32,6 @@ const package = options => {
     } else {
         alert("LogoType can only be text or image")
     }
-    logoFont? document.querySelector(".logo").style.fontFamily=logoFont : null
 
     /********************************converting the list into into the list item with the anchor tag******/
 
@@ -87,17 +87,16 @@ const package = options => {
     /***************************Adding the style properties********************************/
     const bar = document.querySelector(".list-container")
     if (window.matchMedia("max-width:990px")) {
-
-
         switch (style) {
             case "slide-from-right":
                 bar.classList.add("right");
                 action = "slide-from-right"
-                console.log("right")
                 break;
             case "slide-from-left":
                 action = "slide-from-left"
                 bar.classList.add("left");
+                menu.classList.add("menu-left")
+                document.querySelector(".logo").classList.add('lit')
                 break;
             case "drop":
                 action = "drop-from-top"
@@ -106,6 +105,7 @@ const package = options => {
             default:
                 break;
         }
+        
     }
     /*****************************************************************/
 
@@ -115,6 +115,14 @@ const package = options => {
     const _slide = (act) => {
             bar.classList.toggle(act)
         }
-        /**************************add The hover propery****************/
+        /**************************add your own logo font-family*************/
+        const textLogo = document.querySelector(".logo")
+    logoFont && logoType=== "text" ? textLogo.style.fontFamily=logoFont : null
+
+    /************************************ Text Logo  font-Weight****************************/
+    logoBoldness && logoType === "text" ? textLogo.style.fontWeight = logoBoldness : null
+
+    /********************************************Choose Your logo size*****************************************/
+    //yet to do !!!  
       
 }

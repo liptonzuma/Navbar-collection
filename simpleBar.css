@@ -1,4 +1,5 @@
 @import "https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css";
+@import "/node_modules//font-awesome/css/font-awesome.min.css";
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +24,7 @@ nav {
 .logo-text {
     margin-right: auto !important;
     width: 25%;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     text-decoration: none;
     font-family: "Lobster", cursive;
     padding-left: 2rem;
@@ -93,7 +94,7 @@ a {
 }
 
 @media(max-width:990px) {
-    sc .logo-image {
+     .logo-image {
         max-width: 15%;
     }
     .list-container {
@@ -117,8 +118,17 @@ a {
         right: -100%;
         text-align: center;
     }
+     .menu-left{
+        position: fixed !important;
+        padding:0 1rem 0 1rem;
+        left: 0;
+    }
+    .lit{
+        text-align: center !important;
+        width: 100%;
+    }
     .left {
-        top: 4rem;
+        top: 3rem;
         left: -100%;
     }
     .slide-from-right {

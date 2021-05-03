@@ -1,6 +1,6 @@
 {
     "name": "simplebar1",
-    "version": "1.1.2",
+    "version": "1.2.2",
     "description": "build navbars with very little code",
     "main": "simplebar.js",
     "scripts": {
@@ -16,5 +16,7 @@
         "url": "https://github.com/liptonzuma/Navbar-collection/issues"
     },
     "homepage": "https://github.com/liptonzuma/Navbar-collection#readme",
-    "dependencies": {}
+    "dependencies": {
+        "font-awesome": "^4.7.0"
+    }
 }
