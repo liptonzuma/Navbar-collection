@@ -96,7 +96,7 @@ const createNavbar = options => {
                 action = "slide-from-left"
                 bar.classList.add("left");
                 menu.classList.add("menu-left")
-                document.querySelector(".logo").classList.add('lit')
+                document.querySelector(".simple-logo").classList.add('lit')
                 break;
             case "drop":
                 action = "drop-from-top"
@@ -116,7 +116,7 @@ const createNavbar = options => {
             bar.classList.toggle(act)
         }
         /**************************add your own logo font-family*************/
-        const textLogo = document.querySelector(".logo")
+        const textLogo = document.querySelector(".simple-logo")
     logoFont && logoType=== "text" ? textLogo.style.fontFamily=logoFont : null
 
     /************************************ Text Logo  font-Weight****************************/
