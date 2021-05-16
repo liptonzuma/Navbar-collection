@@ -15,7 +15,9 @@ Let us do the hardwork all you need to do is give us the options.
 `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar1@latest/simpleBar.css">`
 
 
-`<script src="https://cdn.jsdelivr.net/npm/simplebar1@latest/simpleBar.min.js"></script>;`
+`<script type="module" src="https://cdn.jsdelivr.net/npm/simplebar1@latest/simpleBar.min.js"></script>;`
+
+## NOTE: DON'T FORGET THE SCRIPT FILE HAS A TYPE="MODULE" AND WHEN YOU IMPORT IT IN YOUR JS FILE REMEMBER TO ADD THE TYPE="MODULE" TO THAT SCRIPT FILE TOO.
 
 ## To begin,
 Add `<link rel="stylesheet" href="\node_modules\simpleBar.css">` to the head tag
@@ -24,6 +26,10 @@ Add ` <script src="\node_modules\simpleBar.js"></script>` to the end part of you
 First you create your nav element and give it an  `#navbar`
 --
 ````
+    import createNavbar from 'https://cdn.jsdelivr.net/npm/simplebar1@latest/simpleBar.min.js' or
+    ## if you're using an npm package then you can just do 
+    import createNavbar from '../node_modules/simplebar1/simplebar.js' 
+
     createNavbar({
             links: ["Home", "Service", "About", "contact", "Pricing", "FAQ", "support", "purchase"],
             logoType: "image",

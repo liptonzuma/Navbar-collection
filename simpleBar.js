@@ -126,3 +126,4 @@ const createNavbar = options => {
     //yet to do !!!  
       
 }
+export default createNavbar;
