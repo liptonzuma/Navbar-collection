@@ -24,9 +24,9 @@ const createNavbar = options => {
     /********************checking if the logo is either text or an image*************************/
     let brand;
     if (logoType === "text") {
-        brand = `<a href="${pathType}home" class="logo logo-text">${logo}</a>`
+        brand = `<a href="${pathType}home" class="simple-logo logo-text">${logo}</a>`
     } else if (logoType === "image") {
-        brand = `<a href="${pathType}home" class="logo">
+        brand = `<a href="${pathType}home" class="simple-logo">
 		 <img src=${logo} alt="logo-image" class="logo-image"/>
 		 </a>`
     } else {
