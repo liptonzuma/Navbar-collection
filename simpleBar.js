@@ -1,4 +1,4 @@
-const package = options => {
+const createNavbar = options => {
     /********************Destructuring the parameters from the option object**************************/
     const {
         links,
@@ -38,7 +38,7 @@ const package = options => {
     const li = links.map(link => {
         return (
             `<li class="list-item">
-            <a class="link ${link}-link" href="${pathType}${link}">
+            <a class="simple-link ${link}-link" href="${pathType}${link}">
             ${link}</a>
             </li>`
         )
@@ -59,7 +59,7 @@ const package = options => {
     /****************************************Applying the the users color picks************************/
     navbar.style.backgroundColor = background
 
-    const navLink = document.querySelectorAll(".link")
+    const navLink = document.querySelectorAll(".simple-link")
     const navbarBrand = document.querySelector(".logo-text")
     if (navbarBrand) {
         navbarBrand.style.color = logoColor

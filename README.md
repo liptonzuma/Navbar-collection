@@ -24,7 +24,7 @@ Add ` <script src="\node_modules\simpleBar.js"></script>` to the end part of you
 First you create your nav element and give it an  `#navbar`
 --
 ````
-    package({
+    createNavbar({
             links: ["Home", "Service", "About", "contact", "Pricing", "FAQ", "support", "purchase"],
             logoType: "image",
             logo: "/toad.jpg",
