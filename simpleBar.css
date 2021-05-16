@@ -61,6 +61,7 @@ nav {
 
 .list-container li a {
     text-decoration: none;
+    font-weight: 600;
 }
 
 .dropDown {
