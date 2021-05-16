@@ -1,6 +1,6 @@
 {
     "name": "simplebar1",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "description": "build navbars with very little code",
     "main": "simplebar.js",
     "scripts": {
