@@ -30,6 +30,7 @@ nav {
     padding-left: 2rem;
     position: relative;
     z-index: 10000;
+    font-weight: 700;
 }
 
 .logo-image {
