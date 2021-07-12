@@ -15,7 +15,7 @@ Let us do the hardwork all you need to do is give us the options.
 `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar1@latest/simpleBar.css">`
 
 
-`<script type="module" src="https://cdn.jsdelivr.net/npm/simplebar1@latest/simpleBar.min.js"></script>;`
+`<script  src="https://cdn.jsdelivr.net/npm/simplebar1@latest/createBar.min.js"></script>;`
 
 ## NOTE: DON'T FORGET THE SCRIPT FILE HAS A TYPE="MODULE" AND WHEN YOU IMPORT IT IN YOUR JS FILE REMEMBER TO ADD THE TYPE="MODULE" TO THAT SCRIPT FILE TOO.
 

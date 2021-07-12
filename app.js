@@ -1,14 +1,14 @@
-import createNavbar from './simplebar.js'
+
 createNavbar({
-   links: ["Home", "Service", "About", "contact", "Pricing", "FAQ", "support", "purchase"],
+   links: ["Home", "Service", "About", "contact", "Pricing","purchase"],
    logoType: "text",
    logo: "Acme",
-   background: "black",
-   color: "green",
-   logoColor: "green",
+   background: "#ef4848",
+   color: "white",
+   logoColor: "#fff",
    pathType: "#",
-   style: "drop",
-   humburgerColor: "green",
+   style: "slide-from-left",
+   humburgerColor: "white",
    fixed: true,
    logoFont:"Montserrat"
 })
